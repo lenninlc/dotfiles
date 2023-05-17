@@ -121,6 +121,7 @@ echo "$(cat $HOME/.config/banners/keepgoing)"
 # Starship customizable prompt 
 eval "$(starship init bash)"
 
-export OPENCV_INCLUDE_PATHS="/usr/include/opencv4"
-export PKG_CONFIG_PATH="/usr/lib/x86_64-linux-gnu/pkgconfig/opencv4.pc"
+# export OPENCV_INCLUDE_PATHS="/usr/include/opencv4"
+# export PKG_CONFIG_PATH="/usr/lib/x86_64-linux-gnu/pkgconfig/opencv4.pc"
 # export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/lib/x86_64-linux-gnu/pkgconfig
+export PKG_CONFIG_PATH="/usr/include/opencv4/lib/pkgconfig"
