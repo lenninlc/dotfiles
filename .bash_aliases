@@ -7,7 +7,7 @@ alias la='ls -A'
 alias l='ls -CF'
 # Shortcut to lvim(LunarVim)
 # alias nv='lvim'
-# Shortcut to visiontif git 
+# Shortcut to visiontif Github repos
 alias vfgit='cd ~/Documents/companies/vf/programs/repos'
 # Shortcut to books
 alias books='cd ~/Documents/personal/books/'
