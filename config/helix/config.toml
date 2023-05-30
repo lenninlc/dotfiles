@@ -1,5 +1,4 @@
 theme = "dracula"
-# theme = "snazzy"
 
 [editor]
 # line-number = "relative"
