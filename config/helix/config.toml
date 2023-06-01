@@ -32,7 +32,6 @@ X = "extend_line_above"
 G = "goto_file_end"
 D = "delete_char_backward"
 
-# [editor.whitespace.render]
 # #space = "all"
 # tab = "all"
 # newline = "none"
