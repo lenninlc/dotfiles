@@ -2,7 +2,8 @@
 alias ls='ls --color=auto'
 # Alias imported from .bashrc 
 # some more ls aliases
-alias ll='ls -alF'
+alias ll='ls -lah'
+# alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 # Shortcut to lvim(LunarVim)
