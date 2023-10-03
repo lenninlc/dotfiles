@@ -2,11 +2,10 @@ theme = "dracula"
 # theme = "snazzy"
 
 [editor]
-line-number = "absolute"
+# line-number = "relative"
 mouse = false
 bufferline = "multiple"
 auto-format = false
-color-modes = true
 
 [editor.lsp]
 display-inlay-hints = true
