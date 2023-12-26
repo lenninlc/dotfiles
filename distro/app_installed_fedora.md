@@ -13,3 +13,5 @@ FLATHUB:
   -thunderbird
   -kicad
   -signal
+CARGO:
+  -starship
