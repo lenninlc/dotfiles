@@ -13,5 +13,9 @@ FLATHUB:
   -thunderbird
   -kicad
   -signal
+  -Déjà Dup Backups
 CARGO:
   -starship
+BY SOURCE:
+  -stm32cubemx
+  -stm32programmer
