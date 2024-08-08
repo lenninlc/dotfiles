@@ -3,7 +3,8 @@ theme = "dracula"
 
 [editor]
 line-number = "absolute"
-mouse = false
+mouse = true
+# mouse = false
 bufferline = "multiple"
 auto-format = false
 color-modes = true
@@ -41,12 +42,11 @@ G = "goto_file_end"
 D = "delete_char_backward"
 
 # [editor.whitespace.render]
-# #space = "all"
+# space = "all"
 # tab = "all"
 # newline = "none"
 
 # [editor.whitespace.characters]
-# #space = "·"
+# space = "·"
 # #nbsp = "⍽"
 # tab = "→"
-

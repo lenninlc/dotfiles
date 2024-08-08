@@ -1,0 +1,22 @@
+import = ["/home/call/.config/alacritty/dracula.toml"]
+live_config_reload = true
+
+[font.normal]
+# Default = ["(Linux/BSD) monospace"]
+# family = "MesloLGMDZ Nerd Font Mono"
+# style = "Regular"
+# family = "DroidSansMNerdFont-Regular"
+family = "JetBrains Mono"
+# family = "DroidSansM Nerd Font"
+style = "Regular"
+
+# family = "FiraCode Nerd Font"
+# style = "Retina"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Shift"
+
+[selection]
+save_to_clipboard = true

@@ -4,7 +4,7 @@ layout {
             plugin location="zellij:tab-bar"
         }
         pane split_direction="Vertical" {
-            pane size="15%" {
+            pane size="10%" {
                 // TODO: when we support sending CWD to plugins, this should start in ./zellij-derver
                 plugin location="zellij:strider"
             }
@@ -14,15 +14,27 @@ layout {
             plugin location="zellij:status-bar"
         }
     }
-    strider_tab name="Firmware" cwd="./" focus=true {
+    strider_tab name="FIRMWARE" cwd="./" focus=true {
         pane split_direction="vertical" size="85%"{
             pane size="60%" split_direction="Horizontal" {
-                pane name="EDITOR"  edit="." size="80%" 
+                pane name="EDITOR"  size="80%" 
+                // pane name="EDITOR"  edit="." size="80%" 
                 pane name="TERMINAL" size="20%"
             }
             pane size="20%" split_direction="Horizontal" {
                 pane name="BUILD" cwd="./src" size="30%"
                 pane name="COM" cwd="./src" size="50%"
+                pane name="GIT" size="20%"
+            }
+        }
+    }
+    strider_tab name="MULTICASE" cwd="./" focus=false {
+        pane split_direction="vertical" size="100%"{
+            pane size="60%" split_direction="Horizontal" {
+                pane name="EDITOR"  size="100%" 
+            }
+            pane size="20%" split_direction="Horizontal" {
+                pane name="BUILD" cwd="./src" size="80%"
                 pane name="GIT" size="20%"
             }
         }

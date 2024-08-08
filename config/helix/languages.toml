@@ -1,0 +1,12 @@
+# Language support configuration.
+# See the languages documentation: https://docs.helix-editor.com/master/languages.html
+
+# [[language]]
+# name = "python"
+# scope = "source.python"
+# indent = { tab-width = 4, unit = "    " }
+
+# [[language]]
+# name = "c"
+# scope = "source.c"
+# indent = { tab-width = 2, unit = "  " }
